@@ -2,6 +2,7 @@ import { Divider,Carousel } from 'antd';
 import editIcon from './icons/editable.svg';
  import saveIcon from './icons/save.svg';
  import shareIcon from './icons/share.svg';
+ import { Link } from "react-router-dom";
  import speedIcon from './icons/speed.svg';
  import heroImage from './icons/image.PNG';
  import heroImage2 from './icons/image2.PNG';
@@ -21,7 +22,7 @@ function LandingPage({}){
                          <p>
                          Effortlessly share and edit your developer profile with DevLink. Streamline the sharing process and make quick edits to keep your information up-to-date. Maximize efficiency and let your developer journey shine.
                          </p>
-                                                 <button className="btn">get started</button>
+                           <Link to='/login' className="btn">get started</Link>
                     </div>
                     <div className="hero-section-secound">
                             <img src={heroImage} alt="" />
