@@ -212,7 +212,7 @@ justify-content: center;
   justify-content: center;
   text-align: center;
  }
- .login-container .login-container-inner{
+ .login-container .login-container-inner,.signup-container .signup-container-inner{
   width: 95%;
  }
 }
