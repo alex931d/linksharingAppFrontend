@@ -29,7 +29,7 @@
     max-width: 130px;
 }
 .landing-page-container .hero-section-secound img{
-  max-width: 520px;
+  max-width: 100%;
   aspect-ratio: 1/2;
 }
 .landing-page-container .hero-section-first h1{
@@ -52,7 +52,6 @@
 }
 .landing-page-container .video-section{
     width: 100%;
-    padding: 30px;
     margin-top: 20px;
     display: flex;
     align-items: center;
