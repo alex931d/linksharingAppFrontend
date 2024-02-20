@@ -8,7 +8,7 @@ const isLocalhost = (
         )
 )
 const API_URL = isLocalhost
-  ? "http://localhost:5000" : "http://link-app-api.alex931d.aspitcloud.dk/";
+  ? "http://localhost:5000" : "https://linksharingappbackend.onrender.com/";
 
   const axiosInstance = axios.create({
     withCredentials: true,
